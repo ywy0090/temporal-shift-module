@@ -252,7 +252,7 @@ def eval_video(video_data, net, this_test_segments, modality):
 
         return i, rst, label
 
-
+###############main###################################
 proc_start_time = time.time()
 max_num = args.max_num if args.max_num > 0 else total_num
 
